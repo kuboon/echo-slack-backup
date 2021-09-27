@@ -14,7 +14,7 @@ jobs:
       - uses: kuboon/gsheet-slack-logger@main
         with:
           slack-token: ${{ secrets.SLACK_TOKEN }}
-          google-client-email: ${{ secrets.GOOGLE_CLIENT_EMAIL }}
+          google-client-email: slack-logger@kuboon-dev.iam.gserviceaccount.com
           google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
           folder-id: 1p0ZSVps76fWoLpfnE9y5tYHkCK18yVeW
  
