@@ -8,8 +8,6 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    env:
-      GOOGLE: 123
     steps:
       - uses: kuboon/gsheet-slack-logger@main
         with:
