@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: kuboon/gsheet-slack-logger@main
         with:
+          timezone: 'Asia/Tokyo'
           slack-token: ${{ secrets.SLACK_TOKEN }}
           google-client-email: slack-logger@kuboon-dev.iam.gserviceaccount.com
           google-private-key: ${{ secrets.GOOGLE_PRIVATE_KEY }}
