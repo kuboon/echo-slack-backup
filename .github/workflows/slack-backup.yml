@@ -17,4 +17,4 @@ jobs:
           googlePrivateKey: ${{ secrets.GOOGLE_PRIVATE_KEY }}
           folderId: 1p0ZSVps76fWoLpfnE9y5tYHkCK18yVeW
           autoJoin: true
-
+          skipChannels: CU3M2BLQ1 CTPLAAA02
